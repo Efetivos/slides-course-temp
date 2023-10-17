@@ -1,5 +1,5 @@
 <template>
-    <div data-page="chapter" class="page page-chapter chapter">
+    <div data-page="chapter" class="page page-chapter">
         <SlicesBlocks :slices="data.body" />
         
     </div>

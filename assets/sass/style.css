@@ -563,5 +563,27 @@ li.caution {
 }
 
 
+.slide-counter {
+	position: fixed;
+	bottom: var(--gap);
+	right: var(--gap);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+.slide-mode .slide-counter {
+	display: flex;
+}
+
+.slide-counter > * {
+	font-size: 3rem;
+	color: var(--color);
+}
+
+.slide-counter__current {
+	color: var(--white);
+}
+
 
 

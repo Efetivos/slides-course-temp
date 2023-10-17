@@ -1,5 +1,5 @@
 <template lang="pug">
-div.slice-docitem(:id="slice.primary.identifier")
+div.slice-docitem(:data-id="slice.primary.identifier" :id="slice.primary.identifier")
     h1(v-if="slice.primary.section_title") {{ slice.primary.section_title }}
     
     .slice-docitem__texts

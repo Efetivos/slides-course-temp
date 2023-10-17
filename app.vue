@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<MenuFixed/>
-		<!-- <MenuFS/> -->
+		<NumbIndicatorSlider/>
 		<NuxtLayout>
 			<NuxtPage />
 		</NuxtLayout>
