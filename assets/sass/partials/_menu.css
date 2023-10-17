@@ -1,0 +1,97 @@
+.menu-ui {
+	position: fixed;
+	left: 0;
+	top: 0;
+	top: 0;
+	width: 100vw;
+	height: var(--menu-size);
+	background: var(--bg);
+	padding: 0 var(--gap);
+	display: flex;
+	align-items: center;
+	z-index: 9;
+}
+
+.menu-ui__holder {
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+a.logo-main {
+	width: 7rem;
+}
+
+.menu-ui__items-right {
+	display: flex;
+	gap: 5rem;
+	align-items: center;
+}
+
+.menu-ui__scheme-trg {
+	align-items: center;
+	border-radius: var(--bd-radius);
+	border: 1px solid var(--line-color);
+	display: flex;
+	height: 4rem;
+	justify-content: center;
+	position: relative;
+	width: 4rem;
+	cursor: pointer;
+}
+
+.menu-ui__scheme-trg__mode {
+	position: absolute;
+	width: 60%;
+}
+.menu-ui__scheme-trg__light {
+	opacity: 0;
+}
+
+.menu-ui__scheme-trg__mode.menu-ui__scheme-trg__dark {
+	width: 50%;
+}
+.dark-mode .menu-ui__scheme-trg__dark  {
+	opacity: 0;
+}
+.dark-mode .menu-ui__scheme-trg__light {
+	opacity: 1 !important;
+}
+
+ul.menu-ui__nav.no-mobile {
+	display: flex;
+	gap: 2.9rem;
+	color: var(--color);
+	margin: -.1rem 0 0 0;
+}
+
+
+.menu-ui__nav__item a {
+	color: var(--black);
+	text-decoration: none !important;
+	font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+	ul.menu-ui__nav.no-mobile {
+        display: none;
+	}
+	.menu-ui__trg-menu.no-desk {
+		align-items: center;
+        display: flex;
+        height: 4rem;
+        justify-content: center;
+        padding: 0.5rem;
+        width: 4rem;
+	}
+
+
+    .menu-ui__items-right {
+		gap: 2rem
+	}
+	
+	
+}

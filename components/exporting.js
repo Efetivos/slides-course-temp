@@ -1,0 +1,1 @@
+export { default as SliceDocItem } from "./slices/SliceDocItem"

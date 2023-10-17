@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "regular";
+    font-display: fallback;
+    src: url('@/assets/fonts/graphik_regular.woff2') format('woff2'), url('@/assets/fonts/graphik_regular.woff') format('woff');
+}
+@font-face {
+    font-family: "light";
+    font-display: fallback;
+    src: url('@/assets/fonts/graphik_light.woff2') format('woff2'), url('@/assets/fonts/graphik_light.woff') format('woff');
+}
+@font-face {
+    font-family: "medium";
+    font-display: fallback;
+    src: url('@/assets/fonts/graphik_medium.woff2') format('woff2'), url('@/assets/fonts/graphik_medium.woff') format('woff');
+}
+@font-face {
+    font-family: "bold";
+    font-display: fallback;
+    src: url('@/assets/fonts/graphik_bold.woff2') format('woff2'), url('@/assets/fonts/graphik_bold.woff') format('woff');
+}
+

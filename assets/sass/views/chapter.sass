@@ -1,0 +1,530 @@
+@import '../partials/setters'
+
+.main-doc__hold
+    width: 100%
+    margin: var(--gap)
+    width: calc(100vw - var(--gap) * 2)
+    @include desk
+        align-items: flex-start
+        justify-content: space-between
+        margin: 0 0 0 3rem
+        width: calc(100vw - (7rem))
+
+
+.main-doc main.slices
+    width: 100%
+    @include desk
+        margin: -5.6rem 0 0 25%
+        width: 75%
+
+.list-doc
+    width: 21%
+    position: fixed
+    top: var(--menu-size)
+    height: calc(100vh - var(--menu-size))
+    border-radius: 1rem
+    overflow: hidden
+    overflow-y: visible
+    @include mobile
+        margin: 0 0 2rem 0
+        position: relative
+        top: auto
+        width: calc( 100vw - var(--gap) * 2)
+        z-index: 1
+@media only screen and (max-width: 1024px) 
+    .list-doc
+        left: 0
+        position: fixed
+        top: var(--menu-size)
+        z-index: 1
+        display: none
+
+.is-menufs .list-doc
+    display: block
+
+@include desk
+    main.main-doc
+        margin: 9rem 0 0 0    
+
+
+
+.page-documentation main.slices section + section
+    margin: 5rem 0 0 0
+
+@include desk
+    .page-documentation main.slices section + section
+        margin: 8rem 0 0 0
+    
+
+
+main.main-doc section
+    width: 100%
+
+
+h1.slice-docitem__title-section
+    color: var(--color)
+    font-family: var(--titlebold)
+    font-size: 1.8rem
+    line-height: 100%
+    margin: 0        
+    font-size: 4rem
+    font-weight: 500
+    letter-spacing: -0.1rem
+
+@include tablet
+    h1.slice-docitem__title-section
+        font-size: 2.2rem
+
+@include tablet-land
+    h1.slice-docitem__title-section
+        font-size: 1rem
+@include desk
+    h1.slice-docitem__title-section
+        font-size: 4rem
+        font-weight: 500
+        letter-spacing: -0.1rem
+    
+
+
+ul.slice-docitem__texts__list
+    margin: 0
+    padding: 0
+
+
+h1.slice-docitem__texts__each__title
+    margin: 0
+    padding: 0
+    line-height: 100%
+    font-size: 1.5rem
+    margin: 0.6rem 0
+    color: var(--color)
+
+@include tablet
+    h1.slice-docitem__texts__each__title
+        font-size: 1.8rem
+
+@include tablet-land
+    h1.slice-docitem__texts__each__title
+        font-size: 0.7rem
+
+@include desk
+    h1.slice-docitem__texts__each__title
+        font-size: 2.8rem
+    
+
+.slice-docitem__path
+    font-size: 0.7rem
+    text-transform: uppercase
+    position: relative
+    text-indent: 0.9rem
+    display: inline-flex
+    align-items: center
+    margin: 0.6rem 0
+@include tablet
+    .slice-docitem__path
+        font-size: 1rem
+@include tablet-land
+    .slice-docitem__path
+        font-size: .5rem
+        line-height: 100%
+@include desk
+    .slice-docitem__path
+        font-size: 1rem
+        line-height: 150%
+    
+
+.slice-docitem__path::before
+    content: ''
+    height: 100%
+    width: 0.4rem
+    background: var(--decor)
+    position: absolute
+    left: 0
+    top: 0
+
+
+ul.slice-docitem__texts__list video
+    margin: 0.8rem 0
+
+
+ul, ol
+    margin: 0
+    padding: 0
+
+
+@include desk
+    .slice-docitem__parag
+        margin: 1.3rem 0
+
+.main-doc ol li
+    list-style-type: decimal
+
+
+.main-doc li a
+    display: inline-block
+    font-weight: bold
+    margin: 0.5rem 0
+    text-decoration: underline
+
+
+.caution, .tip
+    padding: 0.9rem 1.6rem
+    background: #fff0f0
+    position: relative
+    margin: 1rem 0
+
+
+.caution::before, .tip::before
+    content: ''
+    height: 100%
+    width: 0.2rem
+    background: #e39797
+    position: absolute
+    left: 0
+    top: 0
+
+
+
+.caution p, .tip p
+    margin: 0
+
+    
+
+.slice-docitem__texts__list img, .slice-docitem__texts__list video
+    width: 100%
+
+@include desk
+    .slice-docitem__texts__list img, .slice-docitem__texts__list video
+        border-radius: var(--bd-radius)
+        overflow: hidden
+
+
+@include tablet
+    .slice-docitem__texts p
+        font-size: 1.4rem
+
+@include tablet-land
+    .slice-docitem__texts p
+        font-size: 0.4rem
+    
+@include desk
+    .slice-docitem__parag p, .slice-docitem__parag li, .slice-docitem__parag a
+        font-size: clamp(16px, 2rem, 18px)
+    
+
+
+
+
+
+
+//- =========================  CODE  ========================= -//
+//- =========================  CODE  ========================= -//
+.slice-docitem__code
+    align-items: center
+    background: var(--code-bg)
+    border-radius: 0.4rem
+    display: flex
+    margin: 1rem 0
+    overflow: hidden
+    padding: 1.3rem 1rem
+    position: relative
+
+@include tablet-land
+    .slice-docitem__code
+        padding: .5rem
+        border-radius: 0.2rem
+    
+@include desk
+    .slice-docitem__code
+        padding: 0rem 1.7rem
+        justify-content: space-between
+    
+
+.slice-docitem__code__copy
+    position: absolute
+    background: rgba(255, 255, 255, 0.05)
+    border: 1px solid rgba(255, 255, 255, 0.1)
+    border-radius: 0.3rem
+
+@include tablet-land
+    .slice-docitem__code__copy
+        border-radius: 0.15rem
+    
+
+    
+
+
+
+.slice-docitem__code__copy__svg svg path
+    fill: var(--white)
+
+
+.slice-docitem__code span
+    color: var(--white)
+
+.slice-docitem__code .no
+    font-size: 0.8rem
+    margin: 0 0 0 1.1rem
+@include desk
+    .slice-docitem__code__copy span
+        padding: 0 0 0 0.6rem
+    
+.slice-docitem__path + .slice-docitem__code
+    margin: 0 0 1.5rem 0
+
+
+span.no.copied
+    position: absolute
+    margin: 0 0 0 -1.1rem
+    opacity: 0
+
+
+.slice-docitem__code__copy.is-copied
+    background: var(--white)
+
+.is-copied .copy
+    opacity: 0
+
+.is-copied span.no.copied
+    opacity: 1
+
+.is-copied span
+    color: var(--dark)
+
+
+.is-copied .slice-docitem__code__copy__svg path
+    fill: var(--dark)
+
+
+
+
+
+
+
+
+//- =========================  DOC ITEMS  ========================= -//
+//- =========================  DOC ITEMS  ========================= -//
+
+
+
+li.list-doc__each
+    list-style: none
+
+
+h1.list-doc__title
+    font-family: var(--montbold)
+    font-size: 1.1rem
+    text-transform: uppercase
+    line-height: 160%
+    margin: 0
+    padding: 0
+    color: var(--color)
+
+
+
+li.list-doc__childs__each
+    list-style: circle
+    list-style-position: inside
+    padding: 0 0 0 0.8rem
+    cursor: pointer
+
+
+li.list-doc__childs__each .anchor
+    display: inline-block
+    text-decoration: none
+    font-size: 1rem
+    padding: 0.3rem 0
+
+li.list-doc__childs__each span
+    font-size: 1rem
+
+li.list-doc__each + li.list-doc__each
+    border-top: 1px solid rgba(0, 0, 0, 0.08)
+    margin: 0.7rem 0 0 0
+    padding: 0.9rem 0 0 0
+
+
+.list-doc__hold
+    background: var(--soft)
+    border-radius: var(--bd-radius)
+    min-height: 100%
+    height: auto
+    
+
+.page-chapter.chapter
+    margin: 8rem
+    padding: var(--gap) 0
+    margin-left: calc(46rem + var(--gap))
+
+
+
+@media only screen and (max-width: 1024px) 
+    .page-chapter.chapter
+        margin: 0 !important
+        padding: var(--menu-size) var(--gap)
+
+
+.list-doc__each summary
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 1.3rem var(--gap)
+    border-bottom: 1px solid #eeeeee
+    cursor: pointer
+
+
+.dark-mode .list-doc__each summary
+    border-bottom: 1px solid #383838
+
+
+.list-doc__each summary a
+    color: var(--dark)
+    text-decoration: none
+    font-size: 1.9rem
+    font-weight: 500
+
+.list-doc__each summary:hover a
+    color: var(--black)
+
+
+.list-doc__each summary a.router-link-active
+    color: var(--color)
+
+.list-doc__each .icon-arrow
+    border: 1px solid var(--line-color)
+    width: 2.5rem
+    height: 2.5rem
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 0.8rem
+    border-radius: 100%
+
+
+a.router-link-active + .icon-arrow
+    background: var(--color)
+
+a.router-link-active + .icon-arrow svg path
+    fill: var(--white)
+
+.list-doc__childs
+    padding: 0rem 0 1rem 6.3rem
+
+.list-doc__childs__each a
+    font-size: 1.8rem
+    color: var(--parag)
+    text-decoration: none
+    border-left: 2px solid var(--line-color)
+    padding: 0.6rem 2.2rem
+    display: block
+
+.list-doc__childs__each a:hover
+    color: var(--black)
+    border-left: 2px solid var(--color)
+
+
+
+details[open] summary
+    border: none !important
+
+
+details[open] summary svg
+    rotate: 90deg
+
+
+
+.slice-docitem__parag > *
+    margin: .5rem 0
+    padding: 0
+
+
+.slice-docitem__parag h1
+    font-size: 2.6rem
+    line-height: 130%
+
+
+.slice-docitem__parag h2
+    font-size: 2.4rem
+    line-height: 130%
+
+
+.slice-docitem__parag h3
+    font-size: 2.2rem
+    line-height: 130%
+
+.slice-docitem__parag h4
+    font-size: 2rem
+    line-height: 130%
+
+.slice-docitem__parag h5
+    width: 100%
+    background: var(--dark)
+    color: #27fff9
+    font-weight: 300
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+    font-size: 1.6rem
+    padding: 1.3rem
+    border-radius: var(--bd-radius)
+    line-height: 130%
+
+.slice-docitem__parag h6, .slice-docitem__parag pre
+    width: 100%
+    background: var(--code-bg)
+    color: #27ff47
+    font-weight: 300
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+    font-size: 1.4rem
+    padding: 1.3rem
+    border-radius: var(--bd-radius)
+    line-height: 130%
+
+@media only screen and (max-width: 1024px) 
+    .slice-docitem__texts p
+            font-size: clamp(16px, 2rem, 18px)
+            width: 100%
+
+
+    .caution .slice-docitem__parag p
+        width: 95%
+
+
+    h1.slice-docitem__texts__each__title
+        font-size: 2.8rem
+
+@media only screen and (max-width: 579px)
+    .tip .slice-docitem__parag p
+        width: 100%
+
+
+    .slice-docitem__parag p, .slice-docitem__parag li
+        width: 100%
+
+
+    .slice-docitem__parag h6, .slice-docitem__parag pre
+        font-size: 1.8rem
+
+
+    .slice-docitem__parag pre
+        margin: 0.5rem
+
+    .tip .slice-docitem__parag p
+        width: 100%
+
+
+    .slice-docitem__parag p, .slice-docitem__parag li
+        width: 100%
+
+
+    .slice-docitem__parag h6, .slice-docitem__parag pre
+        font-size: 1.8rem
+
+
+    .slice-docitem__parag pre
+        margin: 0.5rem
+
+
+    .slice-docitem__code pre span, .slice-docitem__code pre > *
+        font-size: clamp(12px, 1.6rem, 18px) !important
+
+    .slice-docitem__parag p, .slice-docitem__parag li, .slice-docitem__parag p strong, .slice-docitem__parag li strong, .slice-docitem__parag p > *, .slice-docitem__parag a
+        font-size: clamp(14px, 1.6rem, 18px) !important
