@@ -11,6 +11,9 @@
 	align-items: center;
 	z-index: 9;
 }
+.slide-mode .menu-ui {
+	display: none;
+}
 
 .menu-ui__holder {
 	width: 100%;

@@ -49,7 +49,7 @@
 
 
 <script>
-
+    import SlideMode from '@/assets/js/utils/slide-mode'
     export default {
         methods: {
             toggleMenu(e) {
@@ -61,6 +61,9 @@
         },
 
         mounted() {
+            if(window.innerWidth > 1024) {
+                new SlideMode()
+            }
         }
     }
 </script>

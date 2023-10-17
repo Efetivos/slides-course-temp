@@ -40,6 +40,9 @@ html.dark-mode {
 .list-doc::-webkit-scrollbar {
 	width: 0.3rem;
 }
+pre::-webkit-scrollbar {
+	height: 0.3rem;
+}
 ::-webkit-scrollbar-thumb {
 	background: var(--color); 
 }

@@ -10,6 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 import { home } from '../pages/home';
 import { about } from '../pages/about';
+import { chapter } from '../pages/chapter';
 class Transitions {
     constructor() {
         return;
@@ -36,9 +37,9 @@ class Transitions {
         ScrollTrigger.getAll().forEach(st => st.kill())
         if (pageName == 'index')  {
             home.init($current)
-        }
-        if (pageName == 'about')  {
-            about.init($current)
+        }        
+        if (pageName == 'chapter')  {
+            chapter.init($current)
         }
     }
 

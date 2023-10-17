@@ -110,7 +110,24 @@ h1.slice-docitem__texts__each__title
 @include desk
     h1.slice-docitem__texts__each__title
         font-size: 2.8rem
-    
+
+    .slide-mode h1.slice-docitem__texts__each__title
+        font-size: 4rem
+        font-weight: 300
+        margin-bottom: 6rem
+        position: relative
+
+
+    .slide-mode h1.slice-docitem__texts__each__title:before
+        content: ''
+        position: absolute
+        left: 0
+        bottom: -2rem
+        width: 7rem
+        height: 2px
+        background: var(--line-color)
+        border-radius: 50px
+
 
 .slice-docitem__path
     font-size: 0.7rem
@@ -188,6 +205,11 @@ ul, ol
 .caution p, .tip p
     margin: 0
 
+.caution p
+    color: #bf3e46
+
+.tip p
+    color: #5283c0
     
 
 .slice-docitem__texts__list img, .slice-docitem__texts__list video
@@ -293,7 +315,7 @@ span.no.copied
 
 
 .is-copied .slice-docitem__code__copy__svg path
-    fill: var(--dark)
+    fill: var(--code-bg)
 
 
 
@@ -458,7 +480,7 @@ details[open] summary svg
 
 .slice-docitem__parag h5
     width: 100%
-    background: var(--dark)
+    background: var(--code-bg)
     color: #27fff9
     font-weight: 300
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
@@ -528,3 +550,26 @@ details[open] summary svg
 
     .slice-docitem__parag p, .slice-docitem__parag li, .slice-docitem__parag p strong, .slice-docitem__parag li strong, .slice-docitem__parag p > *, .slice-docitem__parag a
         font-size: clamp(14px, 1.6rem, 18px) !important
+
+@include desk
+    .slide-mode
+        --bg: #020202
+    .slide-mode main.slices
+        width: 50vw
+
+
+    .slide-mode .page.page-chapter.chapter
+        margin: 0
+        padding: 0
+        display: flex
+        justify-content: center
+
+
+
+    .slide-mode .list-doc
+        display: none
+
+
+    .slide-mode .slice-docitem
+        min-height: 100vh
+        padding: 13vh 0 0 0
