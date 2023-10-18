@@ -584,6 +584,8 @@ li.caution {
 .slide-counter__current {
 	color: var(--white);
 }
-
+code[class*="language-"], pre[class*="language-"] {
+	white-space: break-spaces !important;
+}
 
 
