@@ -35,8 +35,20 @@ export default defineNuxtConfig ({
 	],
 	prismic: {
 		endpoint: "https://slides-testing.cdn.prismic.io/api/v2",
-		linkResolver: "~/app/prismic/link-resolver.js",
-		preview: false
+		preview: false,
+		clientConfig: {
+			routes: [
+				// Resolves the Homepage document to "/"
+				{
+					type: "homepage",
+					path: "/",
+				},
+				{
+					type: "page",
+					path: "/:uid",
+				},
+			],
+		},
 	},
 
 	vite: {

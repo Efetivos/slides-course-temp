@@ -1,6 +1,6 @@
 <template>
     <div data-page="chapter" class="page page-chapter">
-        <h1> THIS IS ID</h1>
+        <SlicesBlocks :slices="data.body" />
         
     </div>
 
@@ -15,10 +15,11 @@
     const  { data } = await client.getByUID("slide", route.params.uid);
 
     definePageMeta({
-        pageTransition: navigations 
+        pageTransition: navigations,
+        layout: 'custom' 
     })
     useHead({
-        title: data.meta_title,
+        title: data.meta_title + ' | VWLab',
         bodyAttrs: {
             class: 'chapter'
         }

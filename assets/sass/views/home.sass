@@ -1,2 +1,27 @@
 .home
 	position: relative
+
+ul.course-list
+	display: grid
+	grid-template-columns: repeat(1, 1fr)
+	width: 100%
+	padding: 0 var(--gap)
+	gap: var(--gap)
+
+
+.course-list li
+	border: 1px solid var(--line-color)
+	display: flex
+	align-items: center
+	justify-content: center
+	background: var(--soft)
+	padding: 7rem 0
+	border-radius: var(--bd-radius)
+
+
+.course-list a
+	color: var(--color)
+	text-decoration: none
+	font-weight: 300
+	font-size: 3rem
+

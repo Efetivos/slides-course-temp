@@ -46,9 +46,20 @@ const _inlineRuntimeConfig = {
   "public": {
     "prismic": {
       "endpoint": "https://slides-testing.cdn.prismic.io/api/v2",
-      "clientConfig": {},
+      "clientConfig": {
+        "routes": [
+          {
+            "type": "homepage",
+            "path": "/"
+          },
+          {
+            "type": "page",
+            "path": "/:uid"
+          }
+        ]
+      },
       "client": "~/app/prismic/client",
-      "linkResolver": "~/app/prismic/link-resolver.js",
+      "linkResolver": "~/app/prismic/linkResolver",
       "richTextSerializer": "~/app/prismic/richTextSerializer",
       "injectComponents": true,
       "components": {},

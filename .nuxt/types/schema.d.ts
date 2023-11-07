@@ -19,7 +19,11 @@ declare module 'nuxt/schema' {
    prismic: {
       endpoint: string,
 
-      clientConfig: any,
+      clientConfig: {
+         routes: Array<{
+
+         }>,
+      },
 
       client: string,
 
