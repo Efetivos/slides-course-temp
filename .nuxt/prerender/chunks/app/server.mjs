@@ -1,10 +1,10 @@
-import { hasInjectionContext, inject, version, ref, toRef, getCurrentInstance, onServerPrefetch, useSSRContext, watchEffect, watch, unref, defineComponent, computed, h, resolveComponent, nextTick, withAsyncContext, mergeProps, withCtx, createTextVNode, toDisplayString, createApp, reactive, resolveDynamicComponent, provide, onErrorCaptured, createVNode, shallowRef, shallowReactive, isReadonly, defineAsyncComponent, isRef, isShallow, isReactive, toRaw, Suspense, Transition, openBlock, createBlock } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/vue/index.mjs';
+import { hasInjectionContext, inject, version, ref, toRef, getCurrentInstance, onServerPrefetch, useSSRContext, watchEffect, watch, unref, defineComponent, nextTick, h, withAsyncContext, mergeProps, withCtx, createTextVNode, toDisplayString, createApp, reactive, resolveDynamicComponent, computed, provide, onErrorCaptured, createVNode, shallowRef, shallowReactive, isReadonly, resolveComponent, openBlock, createBlock, defineAsyncComponent, isRef, isShallow, isReactive, toRaw, Suspense, Transition } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/vue/index.mjs';
 import { $fetch } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/ofetch/dist/node.mjs';
 import { createHooks } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/hookable/dist/index.mjs';
 import { getContext, executeAsync } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/unctx/dist/index.mjs';
 import { routerKey, createMemoryHistory, createRouter, START_LOCATION, useRoute as useRoute$1, RouterView } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/vue-router/dist/vue-router.node.mjs';
 import { createError as createError$1, sanitizeStatusCode, setCookie, getCookie, deleteCookie } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/h3/dist/index.mjs';
-import { hasProtocol, parseURL, parseQuery, withTrailingSlash, withoutTrailingSlash, withQuery, joinURL } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/ufo/dist/index.mjs';
+import { hasProtocol, parseURL, parseQuery, withQuery, joinURL, withTrailingSlash, withoutTrailingSlash } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/ufo/dist/index.mjs';
 import { gsap as gsap$2 } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/gsap/dist/gsap.js';
 import { renderSSRHead } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/@unhead/ssr/dist/index.mjs';
 import { composableNames, getActiveHead, createServerHead as createServerHead$1 } from 'file:///Users/victorcosta/Documents/DEV/experiments/courses-slides-testing/node_modules/unhead/dist/index.mjs';
@@ -3505,7 +3505,7 @@ const _routes = [
     meta: __nuxt_page_meta$1 || {},
     alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
     redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-    component: () => import('./_nuxt/_uid_-2451d70d.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_uid_-ccd315e9.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "index",
@@ -3513,7 +3513,7 @@ const _routes = [
     meta: __nuxt_page_meta || {},
     alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
     redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-    component: () => import('./_nuxt/index-7dda86a5.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-c88d5844.mjs').then((m) => m.default || m)
   }
 ];
 const appHead = { "meta": [{ "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "hid": "description", "name": "description", "content": "This course will help and give you some essential insights into how we can achieve better results and goals without sacrificing any vital area of our life. After finishing it, you'll be able to unleash your best version." }, { "name": "format-detection", "content": "telephone=no" }, { "name": "theme-color", "content": "#000000" }, { "name": "og:image", "content": "/cover.png" }, { "name": "og:image:secure_url", "content": "/cover.png" }, { "name": "og:image:width", "content": "1200" }, { "name": "og:image:height", "content": "630" }, { "name": "msapplication-TileColor", "content": "#000000" }], "link": [{ "rel": "icon", "type": "image/png", "href": "/favicon.png" }], "style": [], "script": [], "noscript": [], "title": "Nuxt3 ThreeJs", "htmlAttrs": { "lang": "en" } };
@@ -4237,7 +4237,7 @@ function defineNuxtLink(options) {
     }
   });
 }
-const __nuxt_component_0$1 = /* @__PURE__ */ defineNuxtLink({ componentName: "NuxtLink" });
+const __nuxt_component_1$1 = /* @__PURE__ */ defineNuxtLink({ componentName: "NuxtLink" });
 const prismicKey = Symbol("prismic");
 const getSlots = (parent, slots, defaultPayload) => {
   if (typeof parent === "string") {
@@ -4856,8 +4856,8 @@ const plugin_JbOpvgCHAb = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
     injectComponents: false,
     // Handled at module level
     components: {
-      linkInternalComponent: __nuxt_component_0$1,
-      linkExternalComponent: __nuxt_component_0$1,
+      linkInternalComponent: __nuxt_component_1$1,
+      linkExternalComponent: __nuxt_component_1$1,
       ...options.components
     }
   });
@@ -5010,7 +5010,7 @@ const _sfc_main$6 = {
   }
 };
 function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_nuxt_link = __nuxt_component_0$1;
+  const _component_nuxt_link = __nuxt_component_1$1;
   _push(`<div${ssrRenderAttrs(mergeProps({ class: "menu-ui" }, _attrs))}><div class="menu-ui__holder">`);
   _push(ssrRenderComponent(_component_nuxt_link, {
     href: "/",
@@ -5342,7 +5342,7 @@ _sfc_main$4.setup = (props, ctx) => {
   return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
 };
 const __nuxt_component_4 = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["ssrRender", _sfc_ssrRender$1]]);
-const __default__ = {
+const __default__$1 = {
   props: ["slices"],
   name: "list-doc",
   methods: {
@@ -5365,7 +5365,7 @@ const __default__ = {
   mounted() {
   }
 };
-const _sfc_main$3 = /* @__PURE__ */ Object.assign(__default__, {
+const _sfc_main$3 = /* @__PURE__ */ Object.assign(__default__$1, {
   __ssrInlineRender: true,
   async setup(__props) {
     let __temp, __restore;
@@ -5376,14 +5376,14 @@ const _sfc_main$3 = /* @__PURE__ */ Object.assign(__default__, {
       return document2;
     }, "$LXgK4t4MpQ")), __temp = await __temp, __restore(), __temp);
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_NuxtLink = __nuxt_component_0$1;
+      const _component_NuxtLink = __nuxt_component_1$1;
       _push(`<div${ssrRenderAttrs(mergeProps({ class: "list-doc" }, _attrs))}><div class="list-doc__hold"><div class="list-doc__ul"><!--[-->`);
       ssrRenderList(unref(data).chapters_list, (post, index) => {
         _push(`<ul class="list-doc__each"><!--[-->`);
         ssrRenderList(unref(slides), (post_list) => {
           _push(`<!--[-->`);
           if (post.chapter.uid === post_list.uid) {
-            _push(`<li><details open><summary>`);
+            _push(`<li><details><summary>`);
             _push(ssrRenderComponent(_component_NuxtLink, {
               to: `/chapter/${post_list.uid}`
             }, {
@@ -5501,39 +5501,53 @@ _sfc_main$2.setup = (props, ctx) => {
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
 const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender]]);
-const _sfc_main$1 = {
-  __name: "nuxt-error-page",
-  __ssrInlineRender: true,
-  props: {
-    error: Object
-  },
-  setup(__props) {
-    const props = __props;
-    const _error = props.error;
-    (_error.stack || "").split("\n").splice(1).map((line) => {
-      const text = line.replace("webpack:/", "").replace(".vue", ".js").trim();
-      return {
-        text,
-        internal: line.includes("node_modules") && !line.includes(".cache") || line.includes("internal") || line.includes("new Promise")
-      };
-    }).map((i) => `<span class="stack${i.internal ? " internal" : ""}">${i.text}</span>`).join("\n");
-    const statusCode = Number(_error.statusCode || 500);
-    const is404 = statusCode === 404;
-    const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
-    const description = _error.message || _error.toString();
-    const stack = void 0;
-    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-e014441a.mjs').then((r) => r.default || r));
-    const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-b2a67990.mjs').then((r) => r.default || r));
-    const ErrorTemplate = is404 ? _Error404 : _Error;
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
-    };
+const __default__ = {
+  mounted() {
+    const $current = document.querySelector(".page");
+    transitions.firstEntrance();
+    transitions.instancingPages($current, $current.dataset.page);
+    new Console();
   }
 };
+const _sfc_main$1 = /* @__PURE__ */ Object.assign(__default__, {
+  __name: "error",
+  __ssrInlineRender: true,
+  setup(__props) {
+    useHead({
+      title: "Page not found | VWLAB Slides",
+      bodyAttrs: {
+        class: "index"
+      }
+    });
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_MenuFixed = __nuxt_component_0;
+      const _component_nuxt_link = __nuxt_component_1$1;
+      _push(`<!--[-->`);
+      _push(ssrRenderComponent(_component_MenuFixed, null, null, _parent));
+      _push(`<div data-page="404" class="page page-404"><div class="error"><div class="error__content"><div class="error__texts"><h1 class="error__title">404</h1><p class="error__text"><span class="error__subt">Something went wrong</span><span class="error__wrong">Page not found</span></p></div>`);
+      _push(ssrRenderComponent(_component_nuxt_link, {
+        href: "/",
+        class: "error__link"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`Go back home`);
+          } else {
+            return [
+              createTextVNode("Go back home")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div></div></div><!--]-->`);
+    };
+  }
+});
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("error.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
 const ErrorComponent = _sfc_main$1;
@@ -5608,5 +5622,5 @@ let entry;
 }
 const entry$1 = (ctx) => entry(ctx);
 
-export { PrismicRichText as P, _export_sfc as _, __nuxt_component_0$1 as a, usePrismic as b, createError as c, useRoute as d, entry$1 as default, useAsyncData as e, useHead as u };
+export { PrismicRichText as P, _export_sfc as _, useRoute as a, useHead as b, createError as c, useAsyncData as d, entry$1 as default, usePrismic as u };
 //# sourceMappingURL=server.mjs.map

@@ -203,6 +203,9 @@ ul.slice-docitem__texts__list video {
 	margin: 0.8rem 0;
 }
 
+ul.slice-docitem__texts__list li.sub-item + li.sub-item {
+	margin: 4rem 0 0 0;
+}
 ul,
 ol {
 	margin: 0;
@@ -560,7 +563,9 @@ details[open] summary svg {
 	border-radius: var(--bd-radius);
 	line-height: 130%;
 }
-
+p.block-img {
+	width: 100% !important;
+}
 @media only screen and (max-width: 1024px) {
 	.slice-docitem__texts p {
 		font-size: clamp(16px, 2rem, 18px);
@@ -627,6 +632,7 @@ details[open] summary svg {
 		font-size: clamp(14px, 1.6rem, 18px) !important;
 	}
 }
+
 
 @media only screen and (min-width: 1025px) {
 	.slide-mode {

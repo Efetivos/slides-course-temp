@@ -5,7 +5,7 @@
             ul.list-doc__each(v-for=" (post, index) in data.chapters_list" :key="'slice-' + index")
                 template(v-for=" post_list in slides")
                     li(v-if="post.chapter.uid === post_list.uid")
-                        details(open)
+                        details()
                             summary
                                 NuxtLink(:to="`/chapter/${post_list.uid}`") {{ post_list.data.page_title }}
                                 .icon-arrow <svg width="100%" viewBox="0 0 72 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M52.65 60.0106L0.486572 9.67753L9.51337 0.322479L71.35 59.9894L9.7831 119.667L0.735026 110.333L52.65 60.0106Z" fill="var(--black)"/></svg>

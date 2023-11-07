@@ -538,399 +538,371 @@ const assets = {
   "/cover.png": {
     "type": "image/png",
     "etag": "\"85f80-Xvy/1DM1PZCEAU4eW+5LBqNwuQM\"",
-    "mtime": "2023-10-18T08:14:11.812Z",
+    "mtime": "2023-10-28T01:52:42.719Z",
     "size": 548736,
     "path": "../../.output/public/cover.png"
   },
   "/favicon.ico": {
     "type": "image/vnd.microsoft.icon",
     "etag": "\"18cf6-dHS9aftiLKehVIkwmAKaSmou2go\"",
-    "mtime": "2023-10-18T08:14:11.811Z",
+    "mtime": "2023-10-28T01:52:42.718Z",
     "size": 101622,
     "path": "../../.output/public/favicon.ico"
   },
   "/favicon.png": {
     "type": "image/png",
     "etag": "\"2ee-bUquvhvR8QIF8wqsd3zCbV79fIQ\"",
-    "mtime": "2023-10-18T08:14:11.811Z",
+    "mtime": "2023-10-28T01:52:42.717Z",
     "size": 750,
     "path": "../../.output/public/favicon.png"
   },
   "/_nuxt/Inter-300-1.1c3007b8.woff2": {
     "type": "font/woff2",
     "etag": "\"6a94-p7ZBseVEPLFzwr2bLKPEBds+s3Y\"",
-    "mtime": "2023-10-18T08:14:11.810Z",
+    "mtime": "2023-10-28T01:52:42.716Z",
     "size": 27284,
     "path": "../../.output/public/_nuxt/Inter-300-1.1c3007b8.woff2"
   },
   "/_nuxt/Inter-300-2.eba94878.woff2": {
     "type": "font/woff2",
     "etag": "\"44c0-Jt/1moqAs9SnNh30zblI3A4YOnk\"",
-    "mtime": "2023-10-18T08:14:11.810Z",
+    "mtime": "2023-10-28T01:52:42.716Z",
     "size": 17600,
     "path": "../../.output/public/_nuxt/Inter-300-2.eba94878.woff2"
   },
   "/_nuxt/Inter-300-3.81f77e51.woff2": {
     "type": "font/woff2",
     "etag": "\"31bc-SyzyE2bnRK/a6w+Slw669+p1mHg\"",
-    "mtime": "2023-10-18T08:14:11.809Z",
+    "mtime": "2023-10-28T01:52:42.715Z",
     "size": 12732,
     "path": "../../.output/public/_nuxt/Inter-300-3.81f77e51.woff2"
   },
   "/_nuxt/Inter-300-4.d92c6cbc.woff2": {
     "type": "font/woff2",
     "etag": "\"57d0-YJqZ3TJ+G4oaD17iIJ9w4JzoLMg\"",
-    "mtime": "2023-10-18T08:14:11.809Z",
+    "mtime": "2023-10-28T01:52:42.715Z",
     "size": 22480,
     "path": "../../.output/public/_nuxt/Inter-300-4.d92c6cbc.woff2"
   },
   "/_nuxt/Inter-300-5.15df7612.woff2": {
     "type": "font/woff2",
     "etag": "\"292c-Y8sHnyFc8scLABqcKYLA+rVGWkA\"",
-    "mtime": "2023-10-18T08:14:11.809Z",
+    "mtime": "2023-10-28T01:52:42.715Z",
     "size": 10540,
     "path": "../../.output/public/_nuxt/Inter-300-5.15df7612.woff2"
   },
   "/_nuxt/Inter-300-6.a2bfd9fe.woff2": {
     "type": "font/woff2",
     "etag": "\"13844-NO6dhCwNDkYyWuYI/NdZKeeycmk\"",
-    "mtime": "2023-10-18T08:14:11.809Z",
+    "mtime": "2023-10-28T01:52:42.715Z",
     "size": 79940,
     "path": "../../.output/public/_nuxt/Inter-300-6.a2bfd9fe.woff2"
   },
   "/_nuxt/Inter-300-7.88df0b5a.woff2": {
     "type": "font/woff2",
     "etag": "\"b670-OTMRveJrmaStk1+lW60dznmUOIs\"",
-    "mtime": "2023-10-18T08:14:11.808Z",
+    "mtime": "2023-10-28T01:52:42.715Z",
     "size": 46704,
     "path": "../../.output/public/_nuxt/Inter-300-7.88df0b5a.woff2"
   },
   "/_nuxt/_commonjsHelpers.042e6b4d.js": {
     "type": "application/javascript",
     "etag": "\"2d5-P3zfHjX06vw2vuT4QCtYM1KnKLM\"",
-    "mtime": "2023-10-18T08:14:11.808Z",
+    "mtime": "2023-10-28T01:52:42.714Z",
     "size": 725,
     "path": "../../.output/public/_nuxt/_commonjsHelpers.042e6b4d.js"
   },
-  "/_nuxt/_uid_.b344a8f9.js": {
+  "/_nuxt/_uid_.16b49555.js": {
     "type": "application/javascript",
-    "etag": "\"65c4-XeWBi50QIHKXsAReGdyBaeShJ6M\"",
-    "mtime": "2023-10-18T08:14:11.808Z",
-    "size": 26052,
-    "path": "../../.output/public/_nuxt/_uid_.b344a8f9.js"
+    "etag": "\"65d1-gClrNXRNKHzAF9wrUGU3IRG7rSY\"",
+    "mtime": "2023-10-28T01:52:42.714Z",
+    "size": 26065,
+    "path": "../../.output/public/_nuxt/_uid_.16b49555.js"
   },
   "/_nuxt/_uid_.caf9166c.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"4fc-MzFz8HbP7g7XmXsiRrU6zgrluMo\"",
-    "mtime": "2023-10-18T08:14:11.807Z",
+    "mtime": "2023-10-28T01:52:42.714Z",
     "size": 1276,
     "path": "../../.output/public/_nuxt/_uid_.caf9166c.css"
   },
   "/_nuxt/browser.bdd0494e.js": {
     "type": "application/javascript",
     "etag": "\"5ed-MVaajcIsDU7aEcjzefMyzvWyK3g\"",
-    "mtime": "2023-10-18T08:14:11.807Z",
+    "mtime": "2023-10-28T01:52:42.714Z",
     "size": 1517,
     "path": "../../.output/public/_nuxt/browser.bdd0494e.js"
   },
-  "/_nuxt/entry.199e3c98.js": {
+  "/_nuxt/entry.54553257.js": {
     "type": "application/javascript",
-    "etag": "\"48c0d-EUcZkJyDrXPW//12jBlCSmF04sY\"",
-    "mtime": "2023-10-18T08:14:11.807Z",
-    "size": 297997,
-    "path": "../../.output/public/_nuxt/entry.199e3c98.js"
-  },
-  "/_nuxt/error-404.1ebd8fd5.js": {
-    "type": "application/javascript",
-    "etag": "\"8ad-TlUcgYK6UDaIJz4U7qTeRxmAObE\"",
-    "mtime": "2023-10-18T08:14:11.806Z",
-    "size": 2221,
-    "path": "../../.output/public/_nuxt/error-404.1ebd8fd5.js"
-  },
-  "/_nuxt/error-404.7fc72018.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"e2e-iNt1cqPQ0WDudfCTZVQd31BeRGs\"",
-    "mtime": "2023-10-18T08:14:11.806Z",
-    "size": 3630,
-    "path": "../../.output/public/_nuxt/error-404.7fc72018.css"
-  },
-  "/_nuxt/error-500.175265eb.js": {
-    "type": "application/javascript",
-    "etag": "\"756-nR9Vdm2lu4Qv9xmRRR7+eKvYFbU\"",
-    "mtime": "2023-10-18T08:14:11.806Z",
-    "size": 1878,
-    "path": "../../.output/public/_nuxt/error-500.175265eb.js"
-  },
-  "/_nuxt/error-500.c5df6088.css": {
-    "type": "text/css; charset=utf-8",
-    "etag": "\"79e-ByRo+49BgcevWdRjJy3CMx2IA5k\"",
-    "mtime": "2023-10-18T08:14:11.806Z",
-    "size": 1950,
-    "path": "../../.output/public/_nuxt/error-500.c5df6088.css"
+    "etag": "\"485b3-zvD79DkIFXLWQxESVqvc5qKn3I8\"",
+    "mtime": "2023-10-28T01:52:42.714Z",
+    "size": 296371,
+    "path": "../../.output/public/_nuxt/entry.54553257.js"
   },
   "/_nuxt/graphik_bold.0f0505ca.woff": {
     "type": "font/woff",
     "etag": "\"8eb0-sB4FbGjj+HxNce/dsj/FV7/StrY\"",
-    "mtime": "2023-10-18T08:14:11.806Z",
+    "mtime": "2023-10-28T01:52:42.713Z",
     "size": 36528,
     "path": "../../.output/public/_nuxt/graphik_bold.0f0505ca.woff"
   },
   "/_nuxt/graphik_bold.5e5a4e58.woff2": {
     "type": "font/woff2",
     "etag": "\"6edc-nPIrKmqutmVEschNb2YWaDYdyiQ\"",
-    "mtime": "2023-10-18T08:14:11.805Z",
+    "mtime": "2023-10-28T01:52:42.713Z",
     "size": 28380,
     "path": "../../.output/public/_nuxt/graphik_bold.5e5a4e58.woff2"
   },
   "/_nuxt/graphik_light.1787594d.woff": {
     "type": "font/woff",
     "etag": "\"8d1c-FgGpT4TwdhzYWiNPFiMXAH4hEMw\"",
-    "mtime": "2023-10-18T08:14:11.805Z",
+    "mtime": "2023-10-28T01:52:42.713Z",
     "size": 36124,
     "path": "../../.output/public/_nuxt/graphik_light.1787594d.woff"
   },
   "/_nuxt/graphik_light.7ba765ad.woff2": {
     "type": "font/woff2",
     "etag": "\"6e70-RwZ/l787UNkClc+VcsWBxj72XOc\"",
-    "mtime": "2023-10-18T08:14:11.805Z",
+    "mtime": "2023-10-28T01:52:42.713Z",
     "size": 28272,
     "path": "../../.output/public/_nuxt/graphik_light.7ba765ad.woff2"
   },
   "/_nuxt/graphik_medium.996f8b02.woff2": {
     "type": "font/woff2",
     "etag": "\"7314-TFkbR2tgEQKixvTz8CPzBkvXl6c\"",
-    "mtime": "2023-10-18T08:14:11.805Z",
+    "mtime": "2023-10-28T01:52:42.713Z",
     "size": 29460,
     "path": "../../.output/public/_nuxt/graphik_medium.996f8b02.woff2"
   },
   "/_nuxt/graphik_medium.a4b3ee6e.woff": {
     "type": "font/woff",
     "etag": "\"934c-NMsy6oYk2WTHgrPlCq8AIx0vyYA\"",
-    "mtime": "2023-10-18T08:14:11.804Z",
+    "mtime": "2023-10-28T01:52:42.712Z",
     "size": 37708,
     "path": "../../.output/public/_nuxt/graphik_medium.a4b3ee6e.woff"
   },
   "/_nuxt/graphik_regular.562aef5a.woff2": {
     "type": "font/woff2",
     "etag": "\"6d60-8ww+G1CGp1cV9ebGde7lfk2DF3o\"",
-    "mtime": "2023-10-18T08:14:11.804Z",
+    "mtime": "2023-10-28T01:52:42.712Z",
     "size": 28000,
     "path": "../../.output/public/_nuxt/graphik_regular.562aef5a.woff2"
   },
   "/_nuxt/graphik_regular.b135f130.woff": {
     "type": "font/woff",
     "etag": "\"8b70-L9pQ6oILChPumQohU3uUg+tvp+4\"",
-    "mtime": "2023-10-18T08:14:11.804Z",
+    "mtime": "2023-10-28T01:52:42.712Z",
     "size": 35696,
     "path": "../../.output/public/_nuxt/graphik_regular.b135f130.woff"
   },
-  "/_nuxt/index.7eff25ac.js": {
+  "/_nuxt/index.1ff7871c.js": {
     "type": "application/javascript",
-    "etag": "\"322-11EWqMBvKVGn868HZQZVVMUY45w\"",
-    "mtime": "2023-10-18T08:14:11.804Z",
-    "size": 802,
-    "path": "../../.output/public/_nuxt/index.7eff25ac.js"
+    "etag": "\"209-WcDlnlsUoIkT+NyH+VVKRiTCBN0\"",
+    "mtime": "2023-10-28T01:52:42.712Z",
+    "size": 521,
+    "path": "../../.output/public/_nuxt/index.1ff7871c.js"
   },
   "/css/nuxt-google-fonts.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"1f3a-oWcvAw5maAIij24nb6jt+OszsOg\"",
-    "mtime": "2023-10-18T08:14:11.803Z",
+    "mtime": "2023-10-28T01:52:42.711Z",
     "size": 7994,
     "path": "../../.output/public/css/nuxt-google-fonts.css"
   },
   "/fonts/Inter-300-1.woff2": {
     "type": "font/woff2",
     "etag": "\"6a94-p7ZBseVEPLFzwr2bLKPEBds+s3Y\"",
-    "mtime": "2023-10-18T08:14:11.803Z",
+    "mtime": "2023-10-28T01:52:42.711Z",
     "size": 27284,
     "path": "../../.output/public/fonts/Inter-300-1.woff2"
   },
   "/fonts/Inter-300-2.woff2": {
     "type": "font/woff2",
     "etag": "\"44c0-Jt/1moqAs9SnNh30zblI3A4YOnk\"",
-    "mtime": "2023-10-18T08:14:11.802Z",
+    "mtime": "2023-10-28T01:52:42.711Z",
     "size": 17600,
     "path": "../../.output/public/fonts/Inter-300-2.woff2"
   },
   "/fonts/Inter-300-3.woff2": {
     "type": "font/woff2",
     "etag": "\"31bc-SyzyE2bnRK/a6w+Slw669+p1mHg\"",
-    "mtime": "2023-10-18T08:14:11.802Z",
+    "mtime": "2023-10-28T01:52:42.710Z",
     "size": 12732,
     "path": "../../.output/public/fonts/Inter-300-3.woff2"
   },
   "/fonts/Inter-300-4.woff2": {
     "type": "font/woff2",
     "etag": "\"57d0-YJqZ3TJ+G4oaD17iIJ9w4JzoLMg\"",
-    "mtime": "2023-10-18T08:14:11.802Z",
+    "mtime": "2023-10-28T01:52:42.710Z",
     "size": 22480,
     "path": "../../.output/public/fonts/Inter-300-4.woff2"
   },
   "/fonts/Inter-300-5.woff2": {
     "type": "font/woff2",
     "etag": "\"292c-Y8sHnyFc8scLABqcKYLA+rVGWkA\"",
-    "mtime": "2023-10-18T08:14:11.802Z",
+    "mtime": "2023-10-28T01:52:42.710Z",
     "size": 10540,
     "path": "../../.output/public/fonts/Inter-300-5.woff2"
   },
   "/fonts/Inter-300-6.woff2": {
     "type": "font/woff2",
     "etag": "\"13844-NO6dhCwNDkYyWuYI/NdZKeeycmk\"",
-    "mtime": "2023-10-18T08:14:11.801Z",
+    "mtime": "2023-10-28T01:52:42.710Z",
     "size": 79940,
     "path": "../../.output/public/fonts/Inter-300-6.woff2"
   },
   "/fonts/Inter-300-7.woff2": {
     "type": "font/woff2",
     "etag": "\"b670-OTMRveJrmaStk1+lW60dznmUOIs\"",
-    "mtime": "2023-10-18T08:14:11.801Z",
+    "mtime": "2023-10-28T01:52:42.709Z",
     "size": 46704,
     "path": "../../.output/public/fonts/Inter-300-7.woff2"
   },
   "/fonts/Inter-400-10.woff2": {
     "type": "font/woff2",
     "etag": "\"31bc-SyzyE2bnRK/a6w+Slw669+p1mHg\"",
-    "mtime": "2023-10-18T08:14:11.800Z",
+    "mtime": "2023-10-28T01:52:42.709Z",
     "size": 12732,
     "path": "../../.output/public/fonts/Inter-400-10.woff2"
   },
   "/fonts/Inter-400-11.woff2": {
     "type": "font/woff2",
     "etag": "\"57d0-YJqZ3TJ+G4oaD17iIJ9w4JzoLMg\"",
-    "mtime": "2023-10-18T08:14:11.800Z",
+    "mtime": "2023-10-28T01:52:42.709Z",
     "size": 22480,
     "path": "../../.output/public/fonts/Inter-400-11.woff2"
   },
   "/fonts/Inter-400-12.woff2": {
     "type": "font/woff2",
     "etag": "\"292c-Y8sHnyFc8scLABqcKYLA+rVGWkA\"",
-    "mtime": "2023-10-18T08:14:11.800Z",
+    "mtime": "2023-10-28T01:52:42.709Z",
     "size": 10540,
     "path": "../../.output/public/fonts/Inter-400-12.woff2"
   },
   "/fonts/Inter-400-13.woff2": {
     "type": "font/woff2",
     "etag": "\"13844-NO6dhCwNDkYyWuYI/NdZKeeycmk\"",
-    "mtime": "2023-10-18T08:14:11.800Z",
+    "mtime": "2023-10-28T01:52:42.708Z",
     "size": 79940,
     "path": "../../.output/public/fonts/Inter-400-13.woff2"
   },
   "/fonts/Inter-400-14.woff2": {
     "type": "font/woff2",
     "etag": "\"b670-OTMRveJrmaStk1+lW60dznmUOIs\"",
-    "mtime": "2023-10-18T08:14:11.799Z",
+    "mtime": "2023-10-28T01:52:42.708Z",
     "size": 46704,
     "path": "../../.output/public/fonts/Inter-400-14.woff2"
   },
   "/fonts/Inter-400-8.woff2": {
     "type": "font/woff2",
     "etag": "\"6a94-p7ZBseVEPLFzwr2bLKPEBds+s3Y\"",
-    "mtime": "2023-10-18T08:14:11.799Z",
+    "mtime": "2023-10-28T01:52:42.708Z",
     "size": 27284,
     "path": "../../.output/public/fonts/Inter-400-8.woff2"
   },
   "/fonts/Inter-400-9.woff2": {
     "type": "font/woff2",
     "etag": "\"44c0-Jt/1moqAs9SnNh30zblI3A4YOnk\"",
-    "mtime": "2023-10-18T08:14:11.799Z",
+    "mtime": "2023-10-28T01:52:42.708Z",
     "size": 17600,
     "path": "../../.output/public/fonts/Inter-400-9.woff2"
   },
   "/fonts/Inter-500-15.woff2": {
     "type": "font/woff2",
     "etag": "\"6a94-p7ZBseVEPLFzwr2bLKPEBds+s3Y\"",
-    "mtime": "2023-10-18T08:14:11.799Z",
+    "mtime": "2023-10-28T01:52:42.707Z",
     "size": 27284,
     "path": "../../.output/public/fonts/Inter-500-15.woff2"
   },
   "/fonts/Inter-500-16.woff2": {
     "type": "font/woff2",
     "etag": "\"44c0-Jt/1moqAs9SnNh30zblI3A4YOnk\"",
-    "mtime": "2023-10-18T08:14:11.798Z",
+    "mtime": "2023-10-28T01:52:42.707Z",
     "size": 17600,
     "path": "../../.output/public/fonts/Inter-500-16.woff2"
   },
   "/fonts/Inter-500-17.woff2": {
     "type": "font/woff2",
     "etag": "\"31bc-SyzyE2bnRK/a6w+Slw669+p1mHg\"",
-    "mtime": "2023-10-18T08:14:11.798Z",
+    "mtime": "2023-10-28T01:52:42.707Z",
     "size": 12732,
     "path": "../../.output/public/fonts/Inter-500-17.woff2"
   },
   "/fonts/Inter-500-18.woff2": {
     "type": "font/woff2",
     "etag": "\"57d0-YJqZ3TJ+G4oaD17iIJ9w4JzoLMg\"",
-    "mtime": "2023-10-18T08:14:11.798Z",
+    "mtime": "2023-10-28T01:52:42.707Z",
     "size": 22480,
     "path": "../../.output/public/fonts/Inter-500-18.woff2"
   },
   "/fonts/Inter-500-19.woff2": {
     "type": "font/woff2",
     "etag": "\"292c-Y8sHnyFc8scLABqcKYLA+rVGWkA\"",
-    "mtime": "2023-10-18T08:14:11.798Z",
+    "mtime": "2023-10-28T01:52:42.706Z",
     "size": 10540,
     "path": "../../.output/public/fonts/Inter-500-19.woff2"
   },
   "/fonts/Inter-500-20.woff2": {
     "type": "font/woff2",
     "etag": "\"13844-NO6dhCwNDkYyWuYI/NdZKeeycmk\"",
-    "mtime": "2023-10-18T08:14:11.797Z",
+    "mtime": "2023-10-28T01:52:42.706Z",
     "size": 79940,
     "path": "../../.output/public/fonts/Inter-500-20.woff2"
   },
   "/fonts/Inter-500-21.woff2": {
     "type": "font/woff2",
     "etag": "\"b670-OTMRveJrmaStk1+lW60dznmUOIs\"",
-    "mtime": "2023-10-18T08:14:11.797Z",
+    "mtime": "2023-10-28T01:52:42.706Z",
     "size": 46704,
     "path": "../../.output/public/fonts/Inter-500-21.woff2"
   },
   "/fonts/Inter-600-22.woff2": {
     "type": "font/woff2",
     "etag": "\"6a94-p7ZBseVEPLFzwr2bLKPEBds+s3Y\"",
-    "mtime": "2023-10-18T08:14:11.796Z",
+    "mtime": "2023-10-28T01:52:42.705Z",
     "size": 27284,
     "path": "../../.output/public/fonts/Inter-600-22.woff2"
   },
   "/fonts/Inter-600-23.woff2": {
     "type": "font/woff2",
     "etag": "\"44c0-Jt/1moqAs9SnNh30zblI3A4YOnk\"",
-    "mtime": "2023-10-18T08:14:11.796Z",
+    "mtime": "2023-10-28T01:52:42.705Z",
     "size": 17600,
     "path": "../../.output/public/fonts/Inter-600-23.woff2"
   },
   "/fonts/Inter-600-24.woff2": {
     "type": "font/woff2",
     "etag": "\"31bc-SyzyE2bnRK/a6w+Slw669+p1mHg\"",
-    "mtime": "2023-10-18T08:14:11.796Z",
+    "mtime": "2023-10-28T01:52:42.705Z",
     "size": 12732,
     "path": "../../.output/public/fonts/Inter-600-24.woff2"
   },
   "/fonts/Inter-600-25.woff2": {
     "type": "font/woff2",
     "etag": "\"57d0-YJqZ3TJ+G4oaD17iIJ9w4JzoLMg\"",
-    "mtime": "2023-10-18T08:14:11.796Z",
+    "mtime": "2023-10-28T01:52:42.705Z",
     "size": 22480,
     "path": "../../.output/public/fonts/Inter-600-25.woff2"
   },
   "/fonts/Inter-600-26.woff2": {
     "type": "font/woff2",
     "etag": "\"292c-Y8sHnyFc8scLABqcKYLA+rVGWkA\"",
-    "mtime": "2023-10-18T08:14:11.795Z",
+    "mtime": "2023-10-28T01:52:42.704Z",
     "size": 10540,
     "path": "../../.output/public/fonts/Inter-600-26.woff2"
   },
   "/fonts/Inter-600-27.woff2": {
     "type": "font/woff2",
     "etag": "\"13844-NO6dhCwNDkYyWuYI/NdZKeeycmk\"",
-    "mtime": "2023-10-18T08:14:11.795Z",
+    "mtime": "2023-10-28T01:52:42.704Z",
     "size": 79940,
     "path": "../../.output/public/fonts/Inter-600-27.woff2"
   },
   "/fonts/Inter-600-28.woff2": {
     "type": "font/woff2",
     "etag": "\"b670-OTMRveJrmaStk1+lW60dznmUOIs\"",
-    "mtime": "2023-10-18T08:14:11.795Z",
+    "mtime": "2023-10-28T01:52:42.703Z",
     "size": 46704,
     "path": "../../.output/public/fonts/Inter-600-28.woff2"
   }

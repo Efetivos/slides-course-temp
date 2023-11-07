@@ -229,55 +229,13 @@ const client_manifest = {
     "file": "Inter-300-7.88df0b5a.woff2",
     "src": "node_modules/.cache/nuxt-google-fonts/fonts/Inter-600-28.woff2"
   },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
-    "resourceType": "style",
-    "file": "error-404.7fc72018.css",
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
-  },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "resourceType": "script",
-    "module": true,
-    "css": [],
-    "file": "error-404.1ebd8fd5.js",
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"
-  },
-  "error-404.7fc72018.css": {
-    "file": "error-404.7fc72018.css",
-    "resourceType": "style"
-  },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
-    "resourceType": "style",
-    "file": "error-500.c5df6088.css",
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
-  },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "resourceType": "script",
-    "module": true,
-    "css": [],
-    "file": "error-500.175265eb.js",
-    "imports": [
-      "node_modules/nuxt/dist/app/entry.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
-  },
-  "error-500.c5df6088.css": {
-    "file": "error-500.c5df6088.css",
-    "resourceType": "style"
-  },
   "node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "dynamicImports": [
-      "_browser.bdd0494e.js",
-      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
-      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+      "_browser.bdd0494e.js"
     ],
-    "file": "entry.199e3c98.js",
+    "file": "entry.54553257.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
@@ -291,7 +249,7 @@ const client_manifest = {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "_uid_.b344a8f9.js",
+    "file": "_uid_.16b49555.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
       "__commonjsHelpers.042e6b4d.js"
@@ -306,7 +264,7 @@ const client_manifest = {
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.7eff25ac.js",
+    "file": "index.1ff7871c.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],

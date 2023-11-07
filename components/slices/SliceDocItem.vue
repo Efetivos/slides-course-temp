@@ -5,7 +5,7 @@ div.slice-docitem(:data-id="slice.primary.identifier" :id="slice.primary.identif
     .slice-docitem__texts
         ul.slice-docitem__texts__list
             template(v-for="item in slice.items").slice-docitem__texts__each
-                li(v-bind:class="[item.is_anchor? `sub-item ${item.class}` : item.class ]" :id="item.class")
+                li(v-bind:class="[item.is_anchor? `sub-item ${item.class}` : item.class ]" :id="item.class").sub-item
 
                     //? ________ title
                     h1.slice-docitem__texts__each__title(v-if="item.title") {{ item.title }}
