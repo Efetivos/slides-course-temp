@@ -589,3 +589,11 @@ code[class*="language-"], pre[class*="language-"] {
 }
 
 
+iframe {
+	resize: vertical;
+	padding: 1rem;
+	border: 1px solid #000;
+	width: 100%;
+	position: relative;
+	display: block;
+}
