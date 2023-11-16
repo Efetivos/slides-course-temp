@@ -25,10 +25,6 @@ div.slice-docitem(:data-id="slice.primary.identifier" :id="slice.primary.identif
 
 
                     //? ________ code
-                    template(v-if="item.iframe_or_embed")
-                        .iframe_holder(:data-code="item.iframe_or_embed") Loading
-
-                    //? ________ code
                     template(v-if="item.code")
                         .slice-docitem__code(v-bind:class="[item.path? 'has-path' : null ]")
                             .slice-docitem__code__path(v-if="item.path") {{ item.path }}
@@ -39,6 +35,10 @@ div.slice-docitem(:data-id="slice.primary.identifier" :id="slice.primary.identif
                                 .slice-docitem__code__copy__svg 
                                     <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460" style="enable-background:new 0 0 460 460" xml:space="preserve"><path d="M425.93 0H171.66a32.9 32.9 0 0 0-32.86 32.86V110h30V32.86a2.87 2.87 0 0 1 2.86-2.86h254.27a2.87 2.87 0 0 1 2.87 2.86v254.28a2.87 2.87 0 0 1-2.87 2.86H351.2v30h74.73a32.9 32.9 0 0 0 32.87-32.86V32.86A32.9 32.9 0 0 0 425.93 0z"/><path d="M288.34 140H34.07A32.9 32.9 0 0 0 1.2 172.86v254.27A32.9 32.9 0 0 0 34.07 460h254.27a32.9 32.9 0 0 0 32.87-32.86V172.86A32.9 32.9 0 0 0 288.33 140zm0 290H34.07a2.87 2.87 0 0 1-2.87-2.86V172.86a2.87 2.87 0 0 1 2.87-2.86h254.27a2.87 2.87 0 0 1 2.87 2.86v254.28a2.87 2.87 0 0 1-2.87 2.86z"/></svg>
 
+
+                                    //? ________ code
+                    template(v-if="item.iframe_or_embed")
+                        .iframe_holder(:data-code="item.iframe_or_embed") Loading
 </template>
 
 <script>
