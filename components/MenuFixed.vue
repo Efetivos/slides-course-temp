@@ -22,6 +22,9 @@
                 <ul class="menu-ui__nav no-mobile">
                     <li class="menu-ui__nav__item">
                         <a href="https://victor@vwlab.io" target="_blank"> Website</a>
+                    </li>                   
+                    <li class="menu-ui__nav__item">
+                        <a href="https://workvictor.slack.com/" target="_blank"> Slack</a>
                     </li>
                     <li class="menu-ui__nav__item">
                         <a href="mailto:victor@vwlab.io"> Support</a>
