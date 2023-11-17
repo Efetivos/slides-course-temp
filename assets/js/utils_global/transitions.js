@@ -9,7 +9,6 @@ gsap.registerPlugin(ScrollTrigger)
 
 
 import { home } from '../pages/home';
-import { about } from '../pages/about';
 import { chapter } from '../pages/chapter';
 class Transitions {
     constructor() {
@@ -38,7 +37,7 @@ class Transitions {
         if (pageName == 'index')  {
             home.init($current)
         }        
-        if (pageName == 'chapter')  {
+        if (pageName == 'chapter' || pageName == 'page')  {
             chapter.init($current)
         }
     }

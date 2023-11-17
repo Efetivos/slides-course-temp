@@ -1,7 +1,7 @@
 <template>
-    <div class="e-hvh e-wvw e-flex-col">
+    <div data-page="page" class="page page-chapter">
 
-        <h1> This is course:  {{ data.title }}</h1>
+        <SlicesBlocks :slices="data.body" />
         <!-- <h1> UID:  {{ route.params.uid }}</h1> -->
         <!-- <nuxt-link :to="`/${route.params.uid}/oi`"> lin</nuxt-link> -->
         
@@ -25,7 +25,7 @@
     useHead({
         title: data.meta_title + ' | VWLab',
         bodyAttrs: {
-            class: 'page'
+            class: 'page-slide'
         }
     })
 </script>

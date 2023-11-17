@@ -17,9 +17,6 @@ class Chapter {
             $each: this.qsa('.slice-docitem')
         }
 
-
-
-
         
         const observer = new IntersectionObserver(function (entries, observer) {
             entries.forEach(entry => {
