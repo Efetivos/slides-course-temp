@@ -1,6 +1,6 @@
 <template lang="pug">
 div.slice-docitem(:data-id="slice.primary.identifier" :id="slice.primary.identifier")
-    h1(v-if="slice.primary.section_title") {{ slice.primary.section_title }}
+    h1(v-if="slice.primary.section_title").slice-title {{ slice.primary.section_title }}
     
     .slice-docitem__texts
         ul.slice-docitem__texts__list

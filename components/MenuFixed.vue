@@ -21,13 +21,10 @@
 
                 <ul class="menu-ui__nav no-mobile">
                     <li class="menu-ui__nav__item">
-                        <nuxt-link href="#" class="menu-ui__nav__item__link">About</nuxt-link>
+                        <a href="https://victor@vwlab.io" target="_blank"> Website</a>
                     </li>
                     <li class="menu-ui__nav__item">
-                        <nuxt-link href="#" class="menu-ui__nav__item__link">Work</nuxt-link>
-                    </li>
-                    <li class="menu-ui__nav__item">
-                        <nuxt-link href="#" class="menu-ui__nav__item__link">Contact</nuxt-link>
+                        <a href="mailto:victor@vwlab.io"> Support</a>
                     </li>
                 </ul>
 

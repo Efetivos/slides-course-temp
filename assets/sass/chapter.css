@@ -82,6 +82,20 @@
 	}
 }
 
+h1.slice-title {
+	font-weight: 300;
+	font-size: 6.8rem;
+	color: var(--color);
+	letter-spacing: -0.4rem;
+}
+@media only screen and (max-width: 579px) {
+	h1.slice-title {
+		font-weight: 300;
+		font-size: 5.2rem;
+		color: var(--color);
+		letter-spacing: -0.3rem;
+	}
+}
 main.main-doc section {
 	width: 100%;
 }
