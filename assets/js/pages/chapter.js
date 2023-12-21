@@ -17,7 +17,6 @@ class Chapter {
             $each: this.qsa('.slice-docitem')
         }
 
-        
         const observer = new IntersectionObserver(function (entries, observer) {
             entries.forEach(entry => {
                 if (!entry.isIntersecting) { return; }
@@ -34,6 +33,13 @@ class Chapter {
         }, { threshold: .65 })
 
         this.chapter.$each.forEach(el => observer.observe(el))
+
+
+
+        //
+        if(window.location.href.indexOf("key=vwlab") > -1) {
+            document.querySelector('html').classList.add('iframe-vwlab-store')
+        }
     }
 }
 

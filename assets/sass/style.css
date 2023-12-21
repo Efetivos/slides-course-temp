@@ -603,3 +603,21 @@ iframe {
 	border-radius: var(--bd-radius);
 	min-height: 800px !important;
 }
+
+.iframe-vwlab-store {
+	--color: #703a41;
+	--bg: var(--white);
+}
+.iframe-vwlab-store .menu-ui, .iframe-vwlab-store .list-doc {
+	display: none;
+}
+.iframe-vwlab-store .page  {
+	margin-left: var(--gap);
+	margin-top: 0;
+}
+.iframe-vwlab-store .slice-docitem__code__copy {
+	display: none;
+}
+.iframe-vwlab-store .has-path .slice-docitem__code__path {
+	width: calc(100% - 2rem);
+}
