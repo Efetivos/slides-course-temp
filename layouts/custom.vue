@@ -17,7 +17,6 @@
 			transitions.firstEntrance()
 			transitions.instancingPages($current, $current.dataset.page)
 			new Console()
-			console.log($current)
 		}
 	}
 </script>
